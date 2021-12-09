@@ -19,6 +19,8 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	color: #444444;
 }
 
 #cv {
@@ -35,11 +37,13 @@ p {
 	font-size: 2.5em;
 	font-weight: 700;
 	margin-bottom: -6px;
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
 }
 
 #name h2 {
 	font-size: 2em;
 	margin-left: 2px;
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
 }
 
 #mainArea {
@@ -70,17 +74,21 @@ p {
 	list-style-type: none;
 	font-size: 0.9em;
 	margin-top: 2px;
+	color: #444444;
 }
 
 #contactDetails ul li {
 	margin-bottom: 3px;
+	
 }
 
 #contactDetails ul li a, a[href^=tel] {
 	text-decoration: none;
+	color:#444444;
 }
 
 #contactDetails ul li a:hover {
+	
 }
 
 section {
@@ -108,6 +116,7 @@ section:last-child {
 .sectionTitle h1 {
 	font-style: italic;
 	font-size: 1.5em;
+	color: #cf8a05;
 }
 
 .sectionContent h2 {
@@ -126,8 +135,22 @@ section:last-child {
 	column-count: 3;
 	margin-bottom: 20px;
 	font-size: 1em;
+	color: #444444;
 }
 
 .keySkills ul li {
 	margin-bottom: 3px;
 }
+
+.hrprincipal{
+	height: 2px;
+	background-color: #cf8a05;
+	border: none;
+}
+
+.hrsecond{
+	height: 1px;
+	background-color: #dedede;
+	border: none;
+}
+
